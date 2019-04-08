@@ -42,9 +42,3 @@ def fizz_buzz(number):
                                         # fizz = condition
                                         #if fizz and deluxe:
                                         # return "fizz deluxe"
-
-
-
-
-
-
