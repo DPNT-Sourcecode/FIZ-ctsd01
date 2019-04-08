@@ -6,17 +6,17 @@ def fizz_buzz(number):
     if (number % 3 == 0 or 3 in digits) and (number % 5 == 0 or 5 in digits) and ((len(np.unique(digits)) == 1) and number > 10):
         return "fizz buzz deluxe"
     if (number % 3 == 0 or 3 in digits) and (number % 5 == 0 or 5 in digits) and ((len(np.unique(digits)) == 1) and number > 10) and (number % 2 != 0):
-        return "fake fizz buzz deluxe"
+        return "fizz buzz fake deluxe"
     elif (number % 3 == 0 or 3 in digits) and (number % 5 == 0 or 5 in digits):
         return "fizz buzz"
     elif (number % 5 == 0 or 5 in digits) and ((len(np.unique(digits)) == 1) and number > 10) and (number % 2 != 0):
-        return "fake buzz deluxe"
+        return "buzz fake deluxe"
     elif (number % 5 == 0 or 5 in digits) and ((len(np.unique(digits)) == 1) and number > 10):
         return "buzz deluxe"
     elif number % 5 == 0 or 5 in digits:
         return "buzz"
     elif (number % 3 == 0 or 3 in digits) and ((len(np.unique(digits)) == 1) and number > 10) and (number % 2 != 0):
-        return "fake fizz deluxe"
+        return "fizz fake deluxe"
     elif (number % 3 == 0 or 3 in digits) and ((len(np.unique(digits)) == 1) and number > 10):
         return "fizz deluxe"
     elif number % 3 == 0 or 3 in digits:
@@ -27,3 +27,4 @@ def fizz_buzz(number):
         return "deluxe"
     else:
         return number
+
