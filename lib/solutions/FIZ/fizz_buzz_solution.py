@@ -29,3 +29,8 @@ def fizz_buzz(number):
         return number
 
 
+# put conditions in list/dict?
+# should definitely do that!
+
+
+
