@@ -9,5 +9,3 @@ def test_two():
 
 def test_three():
     assert(sum(0,1) == 1)
-
-
