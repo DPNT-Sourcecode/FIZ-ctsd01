@@ -35,13 +35,14 @@ def fizz_buzz(number):
 
 
 
-
+# Remove deluxe
 # put conditions in list/dict?
 # should definitely do that!
                                         # deluxe = condition
                                         # fizz = condition
                                         #if fizz and deluxe:
                                         # return "fizz deluxe"
+
 
 
 
